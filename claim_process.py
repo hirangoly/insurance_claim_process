@@ -40,7 +40,7 @@ def send_to_downstream_service(provider_data):
         print(f"Error: {response.status_code}")
 
 # Example usage
-input_csv = 'Desktop/Python/claim_process/claim_1234.csv'  # Path to your CSV file
+input_csv = 'Desktop/Python/claim_process/insurance_claim.csv'  # Path to your CSV file
 provider_data = process_csv(input_csv)
 print(provider_data)
 send_to_downstream_service(provider_data)
