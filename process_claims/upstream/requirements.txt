@@ -1,0 +1,4 @@
+# upstream/requirements.txt
+# Add your dependencies here, e.g.:
+pandas
+requests
